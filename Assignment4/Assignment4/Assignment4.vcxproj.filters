@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Package.cpp">
+      <Filter>Package</Filter>
+    </ClCompile>
+    <ClCompile Include="OvernightPackage.cpp">
+      <Filter>OvernightPackage</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoDayPackage.cpp">
+      <Filter>TwoDayPackage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Package.h">
+      <Filter>Package</Filter>
+    </ClInclude>
+    <ClInclude Include="OvernightPackage.h">
+      <Filter>OvernightPackage</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoDayPackage.h">
+      <Filter>TwoDayPackage</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Person</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Package">
+      <UniqueIdentifier>{ad250ea0-4af8-4139-8c1e-dc52566d0163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OvernightPackage">
+      <UniqueIdentifier>{0d811576-b028-44b5-aa38-074b97ed9dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TwoDayPackage">
+      <UniqueIdentifier>{ce38e896-c800-44a7-afb1-a9c8200be6ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Person">
+      <UniqueIdentifier>{124278b9-63e7-44ed-aa80-782fad551c0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

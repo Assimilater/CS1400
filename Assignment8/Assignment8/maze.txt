@@ -1,0 +1,10 @@
+8 20
+7 4
+XXXXXXXXXXXXXXXXX.XX
+...............X..XX
+.XXXXXXXXXXXX.XX...X
+..........X...XXXX.X
+XXXXXXXX..X.XX...X.X
+....XXXXX.X.XX.X.XtX
+X.X.X.....X....X...X
+X.X...XXXXXXXXXXXXXX

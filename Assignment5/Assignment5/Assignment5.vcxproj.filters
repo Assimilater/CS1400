@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Derived Classes">
+      <UniqueIdentifier>{30779a5b-fbc9-4025-8ca4-cea576207c35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Derived Classes">
+      <UniqueIdentifier>{ee9090a9-2ff1-447c-8eb7-d1a5412d55f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Derived Classes\Quadrilaterals">
+      <UniqueIdentifier>{f35716fe-f4a1-4692-bd68-bb1a61af3d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Derived Classes\Quadrilaterals">
+      <UniqueIdentifier>{a95d47eb-a22c-463b-98ca-41ccf13c8218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Derived Classes\Trilaterals">
+      <UniqueIdentifier>{17688300-98c7-4b8c-ad8b-9eef93db5f24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Derived Classes\Trilaterals">
+      <UniqueIdentifier>{3d5126c2-0e4b-4235-97db-0b03f9b32e3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Derived Classes\Unilaterals">
+      <UniqueIdentifier>{a2ea21e1-9478-4f1d-b582-ac6342942d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Derived Classes\Unilaterals">
+      <UniqueIdentifier>{6f13f686-538c-4e80-9335-aed55e663024}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Geometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Source Files\Derived Classes\Quadrilaterals</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Source Files\Derived Classes\Quadrilaterals</Filter>
+    </ClCompile>
+    <ClCompile Include="Prism.cpp">
+      <Filter>Source Files\Derived Classes\Trilaterals</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Source Files\Derived Classes\Trilaterals</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Source Files\Derived Classes\Unilaterals</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Source Files\Derived Classes\Unilaterals</Filter>
+    </ClCompile>
+    <ClCompile Include="Report.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Header Files\Derived Classes\Quadrilaterals</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Header Files\Derived Classes\Quadrilaterals</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Header Files\Derived Classes\Trilaterals</Filter>
+    </ClInclude>
+    <ClInclude Include="Prism.h">
+      <Filter>Header Files\Derived Classes\Trilaterals</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Header Files\Derived Classes\Unilaterals</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Header Files\Derived Classes\Unilaterals</Filter>
+    </ClInclude>
+    <ClInclude Include="Report.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
